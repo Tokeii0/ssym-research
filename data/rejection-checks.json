@@ -1,0 +1,34 @@
+[
+  {
+    "case": "corrupt",
+    "passed": true,
+    "exit_code": 1,
+    "error": "错误：SSYM SHA-256 校验失败\n",
+    "argv": [
+      "${REPOSITORY}\\src-tauri\\target\\release\\starmem.exe",
+      "--json",
+      "--threads",
+      "2",
+      "pslist",
+      "${IMAGE_A}",
+      "--profile",
+      "${REJECTION_RUN}\\corrupt.ssym"
+    ]
+  },
+  {
+    "case": "wrong-guid-valid-checksum",
+    "passed": true,
+    "exit_code": 1,
+    "error": "错误：SSYM PDB 名称/GUID/Age 与目标内核不匹配\n",
+    "argv": [
+      "${REPOSITORY}\\src-tauri\\target\\release\\starmem.exe",
+      "--json",
+      "--threads",
+      "2",
+      "pslist",
+      "${IMAGE_A}",
+      "--profile",
+      "${REJECTION_RUN}\\wrong-guid-valid-checksum.ssym"
+    ]
+  }
+]

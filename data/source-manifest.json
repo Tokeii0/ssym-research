@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "reference/src/profile.rs",
+      "sha256": "4f4922c1bf92b85f29c8bae698ea2be07cf66c34347a23580c42badee6cf5907",
+      "bytes": 23845
+    },
+    {
+      "path": "reference/src/profile/compiled.rs",
+      "sha256": "7e38e3bd7748e35430a56d8db322eca9ac614ad2164c8e1fa7a09a7f52d85781",
+      "bytes": 19118
+    },
+    {
+      "path": "reference/src/profile/compiled/tests.rs",
+      "sha256": "142469376a3f59991856fa8557e3e463b3bffdc2576e5549563fc947600d814c",
+      "bytes": 6506
+    },
+    {
+      "path": "reference/examples/symbol_format_bench.rs",
+      "sha256": "f4a870f29f7bb0254ad74d42c1885e99880a233462fa9c7c0ee1fe00442b95e6",
+      "bytes": 14186
+    },
+    {
+      "path": "reference/Cargo.lock",
+      "sha256": "939d5a2e3738b17e3a5fc98bc499e515a7b6b5c5d21467c4a57e97625afbd068",
+      "bytes": 115121
+    },
+    {
+      "path": "reference/Cargo.toml",
+      "sha256": "3db7b1ee00a252ddbb52a67b3a85bdd1be26888ccd42f7d9f55699b52a362885",
+      "bytes": 2923
+    }
+  ],
+  "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)",
+  "python": "3.12.10",
+  "parent_git_commit": "8fa246e168b74c4971efac5419735fbfc6bf47fa",
+  "note": "Tested shared working tree includes pre-existing changes; engine build IDs identify the actual source, not the parent commit alone."
+}

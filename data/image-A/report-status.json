@@ -1,0 +1,10 @@
+{
+  "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+  "records": 63,
+  "complete": false,
+  "stop_reason": "list_head",
+  "warning_kinds": [
+    "head_blink_mismatch"
+  ],
+  "note": "Only completeness metadata is published; raw process records and warning addresses stay local."
+}

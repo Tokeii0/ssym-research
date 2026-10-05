@@ -1,0 +1,14 @@
+# Private case data and local builds belong outside the publishable study.
+target/
+__pycache__/
+*.pyc
+local-runs/
+*.pdb
+*.raw
+*.vmem
+*.dmp
+*.mem
+*.ssym
+*.exe
+*.dll
+license.json

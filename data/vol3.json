@@ -1,0 +1,1001 @@
+{
+  "cases": [
+    {
+      "image_sha256": "037b8a3073a92661d73d8e8e5e02077fddf246fd394b231e1e76ceda8b9ef85b",
+      "image_bytes": 2147483648,
+      "conversion": {
+        "volatility_version": "2.27.0",
+        "pdb_sha256": "836e82e63685278133630a13ebb179566145abe8c219f89fb6311281cbfb5eea",
+        "pdb_to_full_isf_ms": 8560.656700050458,
+        "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+        "isf_xz": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+        "json_bytes": 1827720,
+        "xz_bytes": 305968,
+        "isf_sha256": "a9235a673bebbf73231168c9f88e7553f37aa59b02d01ade596e51353a553c01",
+        "identity": {
+          "GUID": "ECE191A20CFF4465AE46DF96C2263845",
+          "age": 1,
+          "database": "ntkrnlmp.pdb",
+          "machine_type": 34404
+        },
+        "counts": {
+          "base_types": 14,
+          "user_types": 899,
+          "enums": 118,
+          "symbols": 18979
+        },
+        "process_wall_ms": 9383.074400015175
+      },
+      "loads": {
+        "json": {
+          "first_run": {
+            "load_and_first_lookup_ms": 2173.277100082487,
+            "python_traced_live_bytes": null,
+            "python_traced_peak_bytes": null,
+            "field_offset": 384,
+            "symbol_rva": 2210112,
+            "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 2401.5979000832886
+          },
+          "memory_run": {
+            "load_and_first_lookup_ms": 426.5855000121519,
+            "python_traced_live_bytes": 11513091,
+            "python_traced_peak_bytes": 15473144,
+            "field_offset": 384,
+            "symbol_rva": 2210112,
+            "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 654.3582000304013
+          },
+          "samples": [
+            {
+              "load_and_first_lookup_ms": 177.05860000569373,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 387.6921000191942
+            },
+            {
+              "load_and_first_lookup_ms": 182.62009997852147,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 397.4162000231445
+            },
+            {
+              "load_and_first_lookup_ms": 176.49480002000928,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 390.3133999556303
+            },
+            {
+              "load_and_first_lookup_ms": 181.1384999891743,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 405.4210999747738
+            },
+            {
+              "load_and_first_lookup_ms": 172.5230000447482,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 394.4185000145808
+            },
+            {
+              "load_and_first_lookup_ms": 181.16840010043234,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 394.43270000629127
+            },
+            {
+              "load_and_first_lookup_ms": 178.39290003757924,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 429.05339994467795
+            },
+            {
+              "load_and_first_lookup_ms": 180.72469998151064,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 403.8227000273764
+            },
+            {
+              "load_and_first_lookup_ms": 173.41559997294098,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 394.121199962683
+            }
+          ],
+          "load_ms": {
+            "median": 178.39290003757924,
+            "min": 172.5230000447482,
+            "max": 182.62009997852147,
+            "samples": 9
+          }
+        },
+        "json_xz": {
+          "first_run": {
+            "load_and_first_lookup_ms": 209.82260000891984,
+            "python_traced_live_bytes": null,
+            "python_traced_peak_bytes": null,
+            "field_offset": 384,
+            "symbol_rva": 2210112,
+            "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 438.8211000477895
+          },
+          "memory_run": {
+            "load_and_first_lookup_ms": 432.170300045982,
+            "python_traced_live_bytes": 11516756,
+            "python_traced_peak_bytes": 22616408,
+            "field_offset": 384,
+            "symbol_rva": 2210112,
+            "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 672.4138000281528
+          },
+          "samples": [
+            {
+              "load_and_first_lookup_ms": 191.3786999648437,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 437.75380006991327
+            },
+            {
+              "load_and_first_lookup_ms": 199.44390002638102,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 439.7023000055924
+            },
+            {
+              "load_and_first_lookup_ms": 203.78719992004335,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 501.45700003486127
+            },
+            {
+              "load_and_first_lookup_ms": 189.37509995885193,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 411.486400058493
+            },
+            {
+              "load_and_first_lookup_ms": 196.766100008972,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 440.10919996071607
+            },
+            {
+              "load_and_first_lookup_ms": 262.77859997935593,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 508.63039994146675
+            },
+            {
+              "load_and_first_lookup_ms": 204.05980001669377,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 480.0216000294313
+            },
+            {
+              "load_and_first_lookup_ms": 193.7972999876365,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 422.2775000380352
+            },
+            {
+              "load_and_first_lookup_ms": 207.8149999724701,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 384,
+              "symbol_rva": 2210112,
+              "isf": "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 488.16800001077354
+            }
+          ],
+          "load_ms": {
+            "median": 199.44390002638102,
+            "min": 189.37509995885193,
+            "max": 262.77859997935593,
+            "samples": 9
+          }
+        }
+      },
+      "sessions": [
+        {
+          "cli_pipeline_ms": 7838.446500012651,
+          "records": 0,
+          "report": "${VOL3_RUN}\\case-01\\pslist-0.json",
+          "report_sha256": "d9163d874acf3f2987f4d52821f2dfb8c7a95473603f039c99e0b2102a306482",
+          "config": "${VOL3_RUN}\\case-01\\pslist-0.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 8190.502800047398
+        },
+        {
+          "cli_pipeline_ms": 1075.414099963382,
+          "records": 0,
+          "report": "${VOL3_RUN}\\case-01\\pslist-1.json",
+          "report_sha256": "d9163d874acf3f2987f4d52821f2dfb8c7a95473603f039c99e0b2102a306482",
+          "config": "${VOL3_RUN}\\case-01\\pslist-1.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 1389.5750000374392
+        },
+        {
+          "cli_pipeline_ms": 1058.9609000599012,
+          "records": 0,
+          "report": "${VOL3_RUN}\\case-01\\pslist-2.json",
+          "report_sha256": "d9163d874acf3f2987f4d52821f2dfb8c7a95473603f039c99e0b2102a306482",
+          "config": "${VOL3_RUN}\\case-01\\pslist-2.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 1368.7675999244675
+        },
+        {
+          "cli_pipeline_ms": 1077.7719999896362,
+          "records": 0,
+          "report": "${VOL3_RUN}\\case-01\\pslist-3.json",
+          "report_sha256": "d9163d874acf3f2987f4d52821f2dfb8c7a95473603f039c99e0b2102a306482",
+          "config": "${VOL3_RUN}\\case-01\\pslist-3.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 1401.949999970384
+        }
+      ],
+      "cli_pipeline_ms": {
+        "median": 1075.414099963382,
+        "min": 1058.9609000599012,
+        "max": 1077.7719999896362,
+        "samples": 3
+      },
+      "comparison": {
+        "key": "PID + sign-extended x64 EPROCESS virtual address",
+        "starmem_rows": 63,
+        "status": "different",
+        "vol3_rows": 0,
+        "equal": false,
+        "only_starmem_count": 63,
+        "only_vol3_count": 0
+      }
+    },
+    {
+      "image_sha256": "d27e9ba1612dc083e9323a026711481d60ebc313ab46b33dba7fdd34e3921a12",
+      "image_bytes": 4294967296,
+      "conversion": {
+        "volatility_version": "2.27.0",
+        "pdb_sha256": "631155798d637bc63e49e2c5bbd85c3f0f851b2bbcf135b6e1b75cf0b274fbb5",
+        "pdb_to_full_isf_ms": 16544.77539996151,
+        "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+        "isf_xz": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+        "json_bytes": 3504001,
+        "xz_bytes": 586740,
+        "isf_sha256": "aba9040b97056e3dddad35bd1af8b54d74c1fc92720d91c1566c209a81ea0ed3",
+        "identity": {
+          "GUID": "2146E84F70B609E577618A477DC70B54",
+          "age": 1,
+          "database": "ntkrnlmp.pdb",
+          "machine_type": 34404
+        },
+        "counts": {
+          "base_types": 15,
+          "user_types": 1551,
+          "enums": 272,
+          "symbols": 35837
+        },
+        "process_wall_ms": 18511.640300042927
+      },
+      "loads": {
+        "json": {
+          "first_run": {
+            "load_and_first_lookup_ms": 3825.401599984616,
+            "python_traced_live_bytes": null,
+            "python_traced_peak_bytes": null,
+            "field_offset": 744,
+            "symbol_rva": 4418336,
+            "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 4268.523400067352
+          },
+          "memory_run": {
+            "load_and_first_lookup_ms": 646.9936999492347,
+            "python_traced_live_bytes": 21326258,
+            "python_traced_peak_bytes": 28882165,
+            "field_offset": 744,
+            "symbol_rva": 4418336,
+            "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 873.6378999892622
+          },
+          "samples": [
+            {
+              "load_and_first_lookup_ms": 217.97110000625253,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 440.21769997198135
+            },
+            {
+              "load_and_first_lookup_ms": 215.64220008440316,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 435.26690010912716
+            },
+            {
+              "load_and_first_lookup_ms": 212.03140006400645,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 427.4684999836609
+            },
+            {
+              "load_and_first_lookup_ms": 208.79399997647852,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 430.3485000273213
+            },
+            {
+              "load_and_first_lookup_ms": 233.48970001097769,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 450.4212000174448
+            },
+            {
+              "load_and_first_lookup_ms": 206.11590007320046,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 419.5548000279814
+            },
+            {
+              "load_and_first_lookup_ms": 205.88130003307015,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 423.3737000031397
+            },
+            {
+              "load_and_first_lookup_ms": 209.7451000008732,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 427.02569998800755
+            },
+            {
+              "load_and_first_lookup_ms": 207.50849996693432,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 427.25680000148714
+            }
+          ],
+          "load_ms": {
+            "median": 209.7451000008732,
+            "min": 205.88130003307015,
+            "max": 233.48970001097769,
+            "samples": 9
+          }
+        },
+        "json_xz": {
+          "first_run": {
+            "load_and_first_lookup_ms": 236.0435000155121,
+            "python_traced_live_bytes": null,
+            "python_traced_peak_bytes": null,
+            "field_offset": 744,
+            "symbol_rva": 4418336,
+            "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 450.42580005247146
+          },
+          "memory_run": {
+            "load_and_first_lookup_ms": 669.6923999115825,
+            "python_traced_live_bytes": 21329924,
+            "python_traced_peak_bytes": 35067064,
+            "field_offset": 744,
+            "symbol_rva": 4418336,
+            "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 899.7795999748632
+          },
+          "samples": [
+            {
+              "load_and_first_lookup_ms": 231.82660003658384,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 450.4117000615224
+            },
+            {
+              "load_and_first_lookup_ms": 246.0629999404773,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 478.2025000313297
+            },
+            {
+              "load_and_first_lookup_ms": 232.3525999672711,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 476.37339995708317
+            },
+            {
+              "load_and_first_lookup_ms": 232.90860000997782,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 449.71940002869815
+            },
+            {
+              "load_and_first_lookup_ms": 241.98519997298717,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 456.26390003599226
+            },
+            {
+              "load_and_first_lookup_ms": 236.38390004634857,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 459.781099925749
+            },
+            {
+              "load_and_first_lookup_ms": 229.40580011345446,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 445.3083999687806
+            },
+            {
+              "load_and_first_lookup_ms": 235.65350007265806,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 453.65549996495247
+            },
+            {
+              "load_and_first_lookup_ms": 247.42779997177422,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 744,
+              "symbol_rva": 4418336,
+              "isf": "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 466.3494999986142
+            }
+          ],
+          "load_ms": {
+            "median": 235.65350007265806,
+            "min": 229.40580011345446,
+            "max": 247.42779997177422,
+            "samples": 9
+          }
+        }
+      },
+      "sessions": [
+        {
+          "status": "failed",
+          "exit_code": 1,
+          "stderr": "Volatility 3 Framework 2.27.0\nWARNING  volatility3.framework.layers.vmware: No metadata file found alongside VMEM file. A VMSS or VMSN file may be required to correctly process a VMEM file. These should be placed in the same directory with the same file name, e.g. image-B.vmem and image-B.vmss.\nUnable to validate the plugin requirements: ['plugins.PsList.kernel.layer_name', 'plugins.PsList.kernel.symbol_table_name']\n",
+          "process_wall_ms": 8726.336700026877
+        }
+      ],
+      "cli_pipeline_ms": null,
+      "comparison": {
+        "key": "PID + sign-extended x64 EPROCESS virtual address",
+        "starmem_rows": 455,
+        "status": "failed",
+        "vol3_rows": null,
+        "equal": null
+      }
+    },
+    {
+      "image_sha256": "a83b4e74d44ce351aac81ab3fa44657309561a8f0c61fac9c9ee9d5c677e7272",
+      "image_bytes": 8588783616,
+      "conversion": {
+        "volatility_version": "2.27.0",
+        "pdb_sha256": "f2cd3acd3bd0b2bff2ec72cc5a92ac9c029f242d98ab6cf45259fcafe2902045",
+        "pdb_to_full_isf_ms": 21509.549899958074,
+        "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+        "isf_xz": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+        "json_bytes": 4720593,
+        "xz_bytes": 785032,
+        "isf_sha256": "dff10fcec73c4495bcde68324f5ce3bb2c91702e78a0b0d08cb00889c9a1dfeb",
+        "identity": {
+          "GUID": "7427DA99C3D737202BFB359C2B0E1A5E",
+          "age": 1,
+          "database": "ntkrnlmp.pdb",
+          "machine_type": 34404
+        },
+        "counts": {
+          "base_types": 16,
+          "user_types": 1964,
+          "enums": 410,
+          "symbols": 48786
+        },
+        "process_wall_ms": 23494.413200067356
+      },
+      "loads": {
+        "json": {
+          "first_run": {
+            "load_and_first_lookup_ms": 4900.122700026259,
+            "python_traced_live_bytes": null,
+            "python_traced_peak_bytes": null,
+            "field_offset": 464,
+            "symbol_rva": 15752000,
+            "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 5127.272399957292
+          },
+          "memory_run": {
+            "load_and_first_lookup_ms": 828.7064000032842,
+            "python_traced_live_bytes": 28688379,
+            "python_traced_peak_bytes": 38839167,
+            "field_offset": 464,
+            "symbol_rva": 15752000,
+            "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 1077.7142000151798
+          },
+          "samples": [
+            {
+              "load_and_first_lookup_ms": 255.22659998387098,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 481.0033000539988
+            },
+            {
+              "load_and_first_lookup_ms": 253.29849997069687,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 480.3485000738874
+            },
+            {
+              "load_and_first_lookup_ms": 250.02709997352213,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 479.4977999990806
+            },
+            {
+              "load_and_first_lookup_ms": 241.93040002137423,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 468.30009995028377
+            },
+            {
+              "load_and_first_lookup_ms": 259.7346999682486,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 487.5978999771178
+            },
+            {
+              "load_and_first_lookup_ms": 251.42320001032203,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 480.7479999726638
+            },
+            {
+              "load_and_first_lookup_ms": 255.53109997417778,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 483.53210010100156
+            },
+            {
+              "load_and_first_lookup_ms": 249.56670007668436,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 473.7201000098139
+            },
+            {
+              "load_and_first_lookup_ms": 248.81739995907992,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 484.1784000163898
+            }
+          ],
+          "load_ms": {
+            "median": 251.42320001032203,
+            "min": 241.93040002137423,
+            "max": 259.7346999682486,
+            "samples": 9
+          }
+        },
+        "json_xz": {
+          "first_run": {
+            "load_and_first_lookup_ms": 289.48760009370744,
+            "python_traced_live_bytes": null,
+            "python_traced_peak_bytes": null,
+            "field_offset": 464,
+            "symbol_rva": 15752000,
+            "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 532.7244000509381
+          },
+          "memory_run": {
+            "load_and_first_lookup_ms": 849.2605000501499,
+            "python_traced_live_bytes": 28688917,
+            "python_traced_peak_bytes": 43645924,
+            "field_offset": 464,
+            "symbol_rva": 15752000,
+            "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+            "schema_validation": true,
+            "volatility_version": "2.27.0",
+            "process_wall_ms": 1097.9919000528753
+          },
+          "samples": [
+            {
+              "load_and_first_lookup_ms": 272.5965999998152,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 493.1213000090793
+            },
+            {
+              "load_and_first_lookup_ms": 291.10750008840114,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 510.8991999877617
+            },
+            {
+              "load_and_first_lookup_ms": 275.054799974896,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 501.8432999495417
+            },
+            {
+              "load_and_first_lookup_ms": 276.5510999597609,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 499.850400025025
+            },
+            {
+              "load_and_first_lookup_ms": 277.7275999542326,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 503.93109989818186
+            },
+            {
+              "load_and_first_lookup_ms": 284.4499000348151,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 508.06240004021674
+            },
+            {
+              "load_and_first_lookup_ms": 274.7153000673279,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 496.483700000681
+            },
+            {
+              "load_and_first_lookup_ms": 280.3094999399036,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 493.6307000461966
+            },
+            {
+              "load_and_first_lookup_ms": 316.5271000470966,
+              "python_traced_live_bytes": null,
+              "python_traced_peak_bytes": null,
+              "field_offset": 464,
+              "symbol_rva": 15752000,
+              "isf": "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+              "schema_validation": true,
+              "volatility_version": "2.27.0",
+              "process_wall_ms": 536.8875999702141
+            }
+          ],
+          "load_ms": {
+            "median": 277.7275999542326,
+            "min": 272.5965999998152,
+            "max": 316.5271000470966,
+            "samples": 9
+          }
+        }
+      },
+      "sessions": [
+        {
+          "cli_pipeline_ms": 8925.172399962321,
+          "records": 161,
+          "report": "${VOL3_RUN}\\case-03\\pslist-0.json",
+          "report_sha256": "58043eaaf204c753cd8e84d5da93fe21e117733e7ad9682d51ec8a95333abb00",
+          "config": "${VOL3_RUN}\\case-03\\pslist-0.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 9341.26319992356
+        },
+        {
+          "cli_pipeline_ms": 1692.806400009431,
+          "records": 161,
+          "report": "${VOL3_RUN}\\case-03\\pslist-1.json",
+          "report_sha256": "58043eaaf204c753cd8e84d5da93fe21e117733e7ad9682d51ec8a95333abb00",
+          "config": "${VOL3_RUN}\\case-03\\pslist-1.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 2071.6389000881463
+        },
+        {
+          "cli_pipeline_ms": 1639.9724999209866,
+          "records": 161,
+          "report": "${VOL3_RUN}\\case-03\\pslist-2.json",
+          "report_sha256": "58043eaaf204c753cd8e84d5da93fe21e117733e7ad9682d51ec8a95333abb00",
+          "config": "${VOL3_RUN}\\case-03\\pslist-2.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 2013.7143000029027
+        },
+        {
+          "cli_pipeline_ms": 1725.8044000482187,
+          "records": 161,
+          "report": "${VOL3_RUN}\\case-03\\pslist-3.json",
+          "report_sha256": "58043eaaf204c753cd8e84d5da93fe21e117733e7ad9682d51ec8a95333abb00",
+          "config": "${VOL3_RUN}\\case-03\\pslist-3.config.json",
+          "volatility_version": "2.27.0",
+          "process_wall_ms": 2104.55579997506
+        }
+      ],
+      "cli_pipeline_ms": {
+        "median": 1692.806400009431,
+        "min": 1639.9724999209866,
+        "max": 1725.8044000482187,
+        "samples": 3
+      },
+      "comparison": {
+        "key": "PID + sign-extended x64 EPROCESS virtual address",
+        "starmem_rows": 160,
+        "status": "different",
+        "vol3_rows": 161,
+        "equal": false,
+        "only_starmem_count": 0,
+        "only_vol3_count": 1
+      }
+    }
+  ],
+  "without_libmagic": true,
+  "method": "full Vol3 ISF; serial native pslist; offline; warm file and schema caches; not a same-content SSYM comparison"
+}

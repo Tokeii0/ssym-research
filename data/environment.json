@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-05",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13600KF",
+  "logical_cpus": 20,
+  "os": {
+    "Caption": "Microsoft Windows 11 专业版",
+    "Version": "10.0.26200",
+    "TotalVisibleMemorySize": 33359660
+  },
+  "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)",
+  "python": "Python 3.12.10"
+}

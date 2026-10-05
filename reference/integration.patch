@@ -1,0 +1,107 @@
+diff --git a/src/main.rs b/src/main.rs
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -400,7 +402,7 @@ enum Command {
+         #[command(subcommand)]
+         command: SymbolCommand,
+     },
+-    /// 从内核 PDB 生成精简的 _EPROCESS 字段配置。
++    /// 从内核 PDB 生成精简符号配置；.ssym 输出为实验性二进制，其余为 JSON。
+     Profile {
+         pdb: PathBuf,
+         #[arg(short, long)]
+@@ -1389,7 +1462,7 @@ struct LinuxKernelPluginOutput<'a, T> {
+ 
+ #[derive(Args)]
+ struct SymbolOptions {
+-    /// 使用已有 JSON 配置覆盖自动符号解析。
++    /// 使用已有 JSON 或实验性 .ssym 配置覆盖自动符号解析。
+     #[arg(long, conflicts_with = "pdb")]
+     profile: Option<PathBuf>,
+     /// 使用本地内核 PDB 覆盖自动符号解析。
+@@ -2633,7 +2774,7 @@ fn argument_help(command_name: &str, id: &str) -> Option<&'static str> {
+         "name" => "名称",
+         "query" => "要搜索的符号文本",
+         "pdb" => "本地 PDB 符号文件",
+-        "profile" => "已有的 JSON 符号配置文件",
++        "profile" => "已有的 JSON 或实验性 .ssym 符号配置文件",
+         "base" => "虚拟基址",
+         "fetch" => "将发现的 PDB 下载到符号缓存",
+         "csv" => "将当前插件的完整结构化报告写为兼容 Excel 的 UTF-8 CSV；使用 - 输出到标准输出",
+@@ -5028,13 +5237,25 @@ fn run() -> Result<()> {
+             }
+         },
+         Command::Profile { pdb, output } => {
+-            let profile = build_eprocess_profile(&pdb)?;
++            let binary = starmem::profile::compiled::is_compiled_path(&output);
++            let compiled = binary
++                .then(|| starmem::profile::compiled::compile_pdb(&pdb))
++                .transpose()?;
++            let profile = if let Some(bytes) = &compiled {
++                starmem::profile::compiled::CompiledProfile::parse(bytes)?.to_profile()
++            } else {
++                build_eprocess_profile(&pdb)?
++            };
+             remember_windows_symbol_identity(&profile)?;
+             OUTPUT_POLICY
+                 .get()
+                 .context("输出安全策略尚未初始化")?
+                 .write_file_atomic(&output, |file| {
+-                    serde_json::to_writer_pretty(BufWriter::new(file), &profile)?;
++                    if let Some(bytes) = &compiled {
++                        std::io::Write::write_all(file, bytes)?;
++                    } else {
++                        serde_json::to_writer_pretty(BufWriter::new(file), &profile)?;
++                    }
+                     Ok(())
+                 })?;
+             if cli.json {
+diff --git a/src/session.rs b/src/session.rs
+--- a/src/session.rs
++++ b/src/session.rs
+@@ -26,6 +26,7 @@ use crate::packet_scan::{
+     PacketScanArtifacts, PacketScanOptions, PacketScanStage, scan_memory_packets,
+ };
+ use crate::process_dump::{ProcessMemoryDumpReport, dump_process_memory_with_force};
++use crate::profile::compiled::{CompiledProfileFile, is_compiled_path};
+ use crate::profile::{KernelProfile, build_eprocess_profile, legacy_windows_profile};
+ use crate::symbols::{SymbolStore, default_symbol_store, resolve_kernel_pdb_with_store};
+ use crate::system::credentials::{
+@@ -221,9 +222,36 @@ impl AnalysisSession {
+             "不能同时指定配置文件和 PDB 符号覆盖项"
+         );
+ 
+-        let (profile, warnings, symbol_layout_exactness) = load_profile(&image, &options)?;
++        let compiled = options.profile.as_deref()
++            .filter(|path| is_compiled_path(path))
++            .map(CompiledProfileFile::open)
++            .transpose()?;
++        let (profile, warnings, symbol_layout_exactness) = if let Some(file) = &compiled {
++            file.view().require_current_recipe()?;
++            (
++                file.view().to_profile(),
++                Vec::new(),
++                SymbolLayoutExactness::Exact,
++            )
++        } else {
++            load_profile(&image, &options)?
++        };
+         cancellation.check_cancelled()?;
+         let kernel = WindowsKernelContext::discover(&image, &profile)?;
++        if let Some(file) = &compiled {
++            // Bind the compiled profile to the actual bootstrapped kernel PE, not an
++            // arbitrary RSDS string elsewhere in physical memory. No compatible fallback.
++            ensure!(
++                !kernel.is_x86_pae(),
++                "SSYM v1 尚未验证 x86 PAE 内核，请使用原有 PDB/JSON 链路"
++            );
++            let record = crate::symbols::codeview_from_virtual_pe(
++                &image,
++                kernel.directory_table_base,
++                kernel.kernel_base,
++            ).context("无法复验 SSYM 对应的目标内核 CodeView 身份")?;
++            file.view().validate_identity(&record.pdb_name, &record.guid, record.age)?;
++        }
+         cancellation.check_cancelled()?;
+         Ok(Self {
+             image,

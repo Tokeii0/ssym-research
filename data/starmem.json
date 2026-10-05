@@ -1,0 +1,761 @@
+{
+  "host": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 20
+  },
+  "executable": "${STARMEM_BENCH}",
+  "executable_sha256": "f1125897cfc8e5ea70d3b05efd65c9ed11b5ecb3c20c577181c1b058f80e75c7",
+  "seed": 20261005,
+  "threads": 2,
+  "method": "serial fresh processes; warm OS file cache; latency without heap counters; separate counted-heap run; no cache purge",
+  "cases": [
+    {
+      "manifest": {
+        "image": "${IMAGE_A}",
+        "image_bytes": 2147483648,
+        "image_sha256": "037b8a3073a92661d73d8e8e5e02077fddf246fd394b231e1e76ceda8b9ef85b",
+        "pdb": "${PDB_A}",
+        "pdb_bytes": 3206144,
+        "pdb_sha256": "836e82e63685278133630a13ebb179566145abe8c219f89fb6311281cbfb5eea",
+        "identity": {
+          "pdb_name": "ntkrnlmp.pdb",
+          "guid": "ECE191A2-0CFF-4465-AE46-DF96C2263845",
+          "age": 1,
+          "symbol_key": "ECE191A20CFF4465AE46DF96C22638451"
+        },
+        "recipe_sha256": "4f4922c1bf92b85f29c8bae698ea2be07cf66c34347a23580c42badee6cf5907",
+        "build": {
+          "version": "0.2.0",
+          "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+          "git_commit": null,
+          "dirty": null,
+          "rust_target": "x86_64-pc-windows-msvc",
+          "features": [
+            "DEFAULT"
+          ],
+          "host_api_schema_version": 1,
+          "evidence_schema_version": 1,
+          "command_registry_schema_version": 2,
+          "leaf_command_manifest_schema_version": 1,
+          "integration_api_version": 5,
+          "sqlite_schema_version": 4,
+          "raw_object_schema_version": 1
+        },
+        "threads": 2,
+        "pdb_extract_ms": 4.9774,
+        "ssym_encode_validate_ms": 1.5215999999999998,
+        "pdb_info_age": 4,
+        "pdb_dbi_age": 1,
+        "type_count": 88,
+        "root_fields": 145,
+        "type_fields": 1970,
+        "symbol_count": 58,
+        "profile_sha256": "71fcda134ff47d9fc28e14f05cf04e8af95e2cb6973c44639fcc781cf13106e2",
+        "artifacts": [
+          {
+            "path": "${CASE_A}\\profile.json",
+            "bytes": 104159,
+            "sha256": "71fcda134ff47d9fc28e14f05cf04e8af95e2cb6973c44639fcc781cf13106e2"
+          },
+          {
+            "path": "${CASE_A}\\profile.pretty.json",
+            "bytes": 203558,
+            "sha256": "67e2658a0e6e14372095ba5ff0d34adceaca1da5f8b4a10a405dc96247cddc28"
+          },
+          {
+            "path": "${CASE_A}\\profile.json.zst",
+            "bytes": 21532,
+            "sha256": "183e55eb4ee2297eb925066cdf357225293cc1aacd79ccaf575ad0f004c672be"
+          },
+          {
+            "path": "${CASE_A}\\profile.ssym",
+            "bytes": 96784,
+            "sha256": "100060d49b67f983f9da09d405402516d246305a0b8a7606e58568ac5d68108c"
+          }
+        ]
+      },
+      "loads": {
+        "pdb": {
+          "load_us": {
+            "median": 4547.7,
+            "min": 4367.2,
+            "max": 7375.5,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 75.66,
+            "min": 74.97,
+            "max": 106.0,
+            "samples": 9
+          },
+          "file_bytes": 3206144,
+          "peak_heap_bytes": 1535285,
+          "retained_heap_bytes": 259956,
+          "allocation_calls": 5696
+        },
+        "json-reader": {
+          "load_us": {
+            "median": 785.0,
+            "min": 765.0,
+            "max": 2299.7999999999997,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 63.29,
+            "min": 62.8,
+            "max": 134.27,
+            "samples": 9
+          },
+          "file_bytes": 104159,
+          "peak_heap_bytes": 293948,
+          "retained_heap_bytes": 285692,
+          "allocation_calls": 2666
+        },
+        "json-slice": {
+          "load_us": {
+            "median": 749.2,
+            "min": 711.8,
+            "max": 1248.1000000000001,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 63.67,
+            "min": 62.35,
+            "max": 130.55,
+            "samples": 9
+          },
+          "file_bytes": 104159,
+          "peak_heap_bytes": 416764,
+          "retained_heap_bytes": 285692,
+          "allocation_calls": 2674
+        },
+        "json-zstd": {
+          "load_us": {
+            "median": 967.1,
+            "min": 868.3000000000001,
+            "max": 1036.6,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 63.41,
+            "min": 62.82,
+            "max": 69.22,
+            "samples": 9
+          },
+          "file_bytes": 21532,
+          "peak_heap_bytes": 416726,
+          "retained_heap_bytes": 285654,
+          "allocation_calls": 2674
+        },
+        "ssym": {
+          "load_us": {
+            "median": 385.8,
+            "min": 374.7,
+            "max": 1347.5,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 157.75,
+            "min": 152.92,
+            "max": 537.43,
+            "samples": 9
+          },
+          "file_bytes": 96784,
+          "peak_heap_bytes": 134902,
+          "retained_heap_bytes": 134838,
+          "allocation_calls": 21
+        },
+        "ssym-owned": {
+          "load_us": {
+            "median": 627.8,
+            "min": 587.5,
+            "max": 1130.8,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 49.720000000000006,
+            "min": 48.16,
+            "max": 86.39,
+            "samples": 9
+          },
+          "file_bytes": 96784,
+          "peak_heap_bytes": 354446,
+          "retained_heap_bytes": 215254,
+          "allocation_calls": 2670
+        }
+      },
+      "sessions": {
+        "pdb": {
+          "open_ms": {
+            "median": 834.1844000000001,
+            "min": 784.8066,
+            "max": 880.5007,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 2.2382,
+            "min": 2.1254999999999997,
+            "max": 2.3305000000000002,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 836.3099000000001,
+            "min": 787.1371,
+            "max": 882.7064,
+            "samples": 5
+          },
+          "records": 63,
+          "complete": false,
+          "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04"
+        },
+        "json": {
+          "open_ms": {
+            "median": 833.3806999999999,
+            "min": 794.1716,
+            "max": 861.4906,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 2.2862999999999998,
+            "min": 2.2242,
+            "max": 2.6917999999999997,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 835.7141999999999,
+            "min": 796.3958,
+            "max": 863.7509,
+            "samples": 5
+          },
+          "records": 63,
+          "complete": false,
+          "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04"
+        },
+        "ssym": {
+          "open_ms": {
+            "median": 800.249,
+            "min": 791.9637,
+            "max": 825.1436,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 2.2556999999999996,
+            "min": 2.0975,
+            "max": 2.2701000000000002,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 802.5118,
+            "min": 794.0612,
+            "max": 827.3993,
+            "samples": 5
+          },
+          "records": 63,
+          "complete": false,
+          "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04"
+        }
+      },
+      "symbol_roundtrip_equal": true,
+      "session_reports_equal": true
+    },
+    {
+      "manifest": {
+        "image": "${IMAGE_B}",
+        "image_bytes": 4294967296,
+        "image_sha256": "d27e9ba1612dc083e9323a026711481d60ebc313ab46b33dba7fdd34e3921a12",
+        "pdb": "${PDB_B}",
+        "pdb_bytes": 7711744,
+        "pdb_sha256": "631155798d637bc63e49e2c5bbd85c3f0f851b2bbcf135b6e1b75cf0b274fbb5",
+        "identity": {
+          "pdb_name": "ntkrnlmp.pdb",
+          "guid": "2146E84F-70B6-09E5-7761-8A477DC70B54",
+          "age": 1,
+          "symbol_key": "2146E84F70B609E577618A477DC70B541"
+        },
+        "recipe_sha256": "4f4922c1bf92b85f29c8bae698ea2be07cf66c34347a23580c42badee6cf5907",
+        "build": {
+          "version": "0.2.0",
+          "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+          "git_commit": null,
+          "dirty": null,
+          "rust_target": "x86_64-pc-windows-msvc",
+          "features": [
+            "DEFAULT"
+          ],
+          "host_api_schema_version": 1,
+          "evidence_schema_version": 1,
+          "command_registry_schema_version": 2,
+          "leaf_command_manifest_schema_version": 1,
+          "integration_api_version": 5,
+          "sqlite_schema_version": 4,
+          "raw_object_schema_version": 1
+        },
+        "threads": 2,
+        "pdb_extract_ms": 21.9879,
+        "ssym_encode_validate_ms": 3.0797,
+        "pdb_info_age": 2,
+        "pdb_dbi_age": 1,
+        "type_count": 93,
+        "root_fields": 226,
+        "type_fields": 2717,
+        "symbol_count": 58,
+        "profile_sha256": "17275094803bb129643c7ca0d9cad45ba3d12ec92aebf54fe7c863bb19acf85c",
+        "artifacts": [
+          {
+            "path": "${CASE_B}\\profile.json",
+            "bytes": 149953,
+            "sha256": "17275094803bb129643c7ca0d9cad45ba3d12ec92aebf54fe7c863bb19acf85c"
+          },
+          {
+            "path": "${CASE_B}\\profile.pretty.json",
+            "bytes": 290094,
+            "sha256": "5996331ce31995a385800dd1230c353d2803f91fcb932ca411f6daf27ff5d3d1"
+          },
+          {
+            "path": "${CASE_B}\\profile.json.zst",
+            "bytes": 29899,
+            "sha256": "4cb9037bcbc566c9946040d064fe7d4e2b453beb399098eb63abfe0a6e0daeaf"
+          },
+          {
+            "path": "${CASE_B}\\profile.ssym",
+            "bytes": 134387,
+            "sha256": "aca4bf3e652e90e93c15809d591a379bdfebd1b9c2f5fab8ee9aab3193de01c3"
+          }
+        ]
+      },
+      "loads": {
+        "pdb": {
+          "load_us": {
+            "median": 13799.8,
+            "min": 11286.0,
+            "max": 19530.3,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 76.26,
+            "min": 75.17,
+            "max": 77.44,
+            "samples": 9
+          },
+          "file_bytes": 7711744,
+          "peak_heap_bytes": 2479625,
+          "retained_heap_bytes": 355734,
+          "allocation_calls": 12543
+        },
+        "json-reader": {
+          "load_us": {
+            "median": 1232.6,
+            "min": 1021.1,
+            "max": 3836.3999999999996,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 73.12,
+            "min": 70.49,
+            "max": 230.6,
+            "samples": 9
+          },
+          "file_bytes": 149953,
+          "peak_heap_bytes": 394806,
+          "retained_heap_bytes": 386550,
+          "allocation_calls": 3635
+        },
+        "json-slice": {
+          "load_us": {
+            "median": 1738.6000000000001,
+            "min": 943.5999999999999,
+            "max": 4616.5,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 129.92,
+            "min": 70.83,
+            "max": 219.51,
+            "samples": 9
+          },
+          "file_bytes": 149953,
+          "peak_heap_bytes": 648694,
+          "retained_heap_bytes": 386550,
+          "allocation_calls": 3644
+        },
+        "json-zstd": {
+          "load_us": {
+            "median": 1625.7,
+            "min": 1150.6000000000001,
+            "max": 5409.5,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 77.22,
+            "min": 71.46,
+            "max": 193.8,
+            "samples": 9
+          },
+          "file_bytes": 29899,
+          "peak_heap_bytes": 648694,
+          "retained_heap_bytes": 386550,
+          "allocation_calls": 3645
+        },
+        "ssym": {
+          "load_us": {
+            "median": 593.0,
+            "min": 426.8,
+            "max": 2352.2999999999997,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 175.64,
+            "min": 163.6,
+            "max": 803.1200000000001,
+            "samples": 9
+          },
+          "file_bytes": 134387,
+          "peak_heap_bytes": 265974,
+          "retained_heap_bytes": 265910,
+          "allocation_calls": 22
+        },
+        "ssym-owned": {
+          "load_us": {
+            "median": 1383.5,
+            "min": 722.6999999999999,
+            "max": 3926.8,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 88.2,
+            "min": 57.73,
+            "max": 293.78,
+            "samples": 9
+          },
+          "file_bytes": 134387,
+          "peak_heap_bytes": 558518,
+          "retained_heap_bytes": 283718,
+          "allocation_calls": 3593
+        }
+      },
+      "sessions": {
+        "pdb": {
+          "open_ms": {
+            "median": 1068.6849,
+            "min": 1050.4104,
+            "max": 1088.5148,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 10.6883,
+            "min": 10.6516,
+            "max": 11.5978,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 1080.2827,
+            "min": 1061.062,
+            "max": 1099.3596,
+            "samples": 5
+          },
+          "records": 455,
+          "complete": true,
+          "report_sha256": "4b81df6fd41a34601b36fee1645072df1e4e67c798e21d1651bcc9a03b402c14"
+        },
+        "json": {
+          "open_ms": {
+            "median": 1072.9433,
+            "min": 1036.4216,
+            "max": 1081.722,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 10.9226,
+            "min": 10.672600000000001,
+            "max": 11.0244,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 1083.9677,
+            "min": 1047.3442,
+            "max": 1092.435,
+            "samples": 5
+          },
+          "records": 455,
+          "complete": true,
+          "report_sha256": "4b81df6fd41a34601b36fee1645072df1e4e67c798e21d1651bcc9a03b402c14"
+        },
+        "ssym": {
+          "open_ms": {
+            "median": 1046.1811,
+            "min": 1040.1043000000002,
+            "max": 1066.3701999999998,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 11.5518,
+            "min": 11.081900000000001,
+            "max": 11.8079,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 1057.4275,
+            "min": 1051.9122000000002,
+            "max": 1077.4520999999997,
+            "samples": 5
+          },
+          "records": 455,
+          "complete": true,
+          "report_sha256": "4b81df6fd41a34601b36fee1645072df1e4e67c798e21d1651bcc9a03b402c14"
+        }
+      },
+      "symbol_roundtrip_equal": true,
+      "session_reports_equal": true
+    },
+    {
+      "manifest": {
+        "image": "${IMAGE_C}",
+        "image_bytes": 8588783616,
+        "image_sha256": "a83b4e74d44ce351aac81ab3fa44657309561a8f0c61fac9c9ee9d5c677e7272",
+        "pdb": "${PDB_C}",
+        "pdb_bytes": 11366400,
+        "pdb_sha256": "f2cd3acd3bd0b2bff2ec72cc5a92ac9c029f242d98ab6cf45259fcafe2902045",
+        "identity": {
+          "pdb_name": "ntkrnlmp.pdb",
+          "guid": "7427DA99-C3D7-3720-2BFB-359C2B0E1A5E",
+          "age": 1,
+          "symbol_key": "7427DA99C3D737202BFB359C2B0E1A5E1"
+        },
+        "recipe_sha256": "4f4922c1bf92b85f29c8bae698ea2be07cf66c34347a23580c42badee6cf5907",
+        "build": {
+          "version": "0.2.0",
+          "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+          "git_commit": null,
+          "dirty": null,
+          "rust_target": "x86_64-pc-windows-msvc",
+          "features": [
+            "DEFAULT"
+          ],
+          "host_api_schema_version": 1,
+          "evidence_schema_version": 1,
+          "command_registry_schema_version": 2,
+          "leaf_command_manifest_schema_version": 1,
+          "integration_api_version": 5,
+          "sqlite_schema_version": 4,
+          "raw_object_schema_version": 1
+        },
+        "threads": 2,
+        "pdb_extract_ms": 13.010000000000002,
+        "ssym_encode_validate_ms": 2.8201,
+        "pdb_info_age": 6,
+        "pdb_dbi_age": 1,
+        "type_count": 92,
+        "root_fields": 263,
+        "type_fields": 2967,
+        "symbol_count": 56,
+        "profile_sha256": "af379a3dfc0df0a9bc2e3b3b2c202cbf40a1ccf5bcbce5c8cde12177f233b7ff",
+        "artifacts": [
+          {
+            "path": "${CASE_C}\\profile.json",
+            "bytes": 164980,
+            "sha256": "af379a3dfc0df0a9bc2e3b3b2c202cbf40a1ccf5bcbce5c8cde12177f233b7ff"
+          },
+          {
+            "path": "${CASE_C}\\profile.pretty.json",
+            "bytes": 317384,
+            "sha256": "edcda02a9166ffa0d838ca3d70c0d308ec0fc35271b60a3a8685b5a9f9bb37c7"
+          },
+          {
+            "path": "${CASE_C}\\profile.json.zst",
+            "bytes": 32752,
+            "sha256": "0d5fd7b67d7aa9a59933c02a81e301d326a5f130f157286c7b63ad262a9f3ba0"
+          },
+          {
+            "path": "${CASE_C}\\profile.ssym",
+            "bytes": 148047,
+            "sha256": "ec1ffa2cac3d0477baa170bb59deeb7081e974a24c0645c78dee2a7f62715c25"
+          }
+        ]
+      },
+      "loads": {
+        "pdb": {
+          "load_us": {
+            "median": 13690.8,
+            "min": 13187.8,
+            "max": 18215.4,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 88.21,
+            "min": 87.66,
+            "max": 89.44,
+            "samples": 9
+          },
+          "file_bytes": 11366400,
+          "peak_heap_bytes": 2996189,
+          "retained_heap_bytes": 378102,
+          "allocation_calls": 13863
+        },
+        "json-reader": {
+          "load_us": {
+            "median": 1171.3,
+            "min": 1136.8999999999999,
+            "max": 4659.7,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 76.81,
+            "min": 74.95,
+            "max": 215.41,
+            "samples": 9
+          },
+          "file_bytes": 164980,
+          "peak_heap_bytes": 427454,
+          "retained_heap_bytes": 419198,
+          "allocation_calls": 3961
+        },
+        "json-slice": {
+          "load_us": {
+            "median": 1026.5,
+            "min": 950.6999999999999,
+            "max": 2841.7999999999997,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 76.7,
+            "min": 74.82,
+            "max": 173.35,
+            "samples": 9
+          },
+          "file_bytes": 164980,
+          "peak_heap_bytes": 681342,
+          "retained_heap_bytes": 419198,
+          "allocation_calls": 3970
+        },
+        "json-zstd": {
+          "load_us": {
+            "median": 1289.5,
+            "min": 1242.2,
+            "max": 2143.2999999999997,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 76.83,
+            "min": 75.84,
+            "max": 155.74,
+            "samples": 9
+          },
+          "file_bytes": 32752,
+          "peak_heap_bytes": 681342,
+          "retained_heap_bytes": 419198,
+          "allocation_calls": 3971
+        },
+        "ssym": {
+          "load_us": {
+            "median": 690.5,
+            "min": 491.2,
+            "max": 1560.9,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 236.07,
+            "min": 175.12,
+            "max": 603.24,
+            "samples": 9
+          },
+          "file_bytes": 148047,
+          "peak_heap_bytes": 262208,
+          "retained_heap_bytes": 262144,
+          "allocation_calls": 19
+        },
+        "ssym-owned": {
+          "load_us": {
+            "median": 876.5999999999999,
+            "min": 801.1999999999999,
+            "max": 1490.1000000000001,
+            "samples": 9
+          },
+          "lookup_pair_ns": {
+            "median": 65.65,
+            "min": 64.23,
+            "max": 332.41,
+            "samples": 9
+          },
+          "file_bytes": 148047,
+          "peak_heap_bytes": 582838,
+          "retained_heap_bytes": 305966,
+          "allocation_calls": 3902
+        }
+      },
+      "sessions": {
+        "pdb": {
+          "open_ms": {
+            "median": 14.906799999999999,
+            "min": 13.0712,
+            "max": 16.5657,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 8.570400000000001,
+            "min": 8.1624,
+            "max": 9.0727,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 23.979499999999998,
+            "min": 21.6416,
+            "max": 25.1873,
+            "samples": 5
+          },
+          "records": 160,
+          "complete": false,
+          "report_sha256": "47a6ca9c5b52992c6f40005a3e8cdc42c3c7945a823ef5bdc0ee523798b19498"
+        },
+        "json": {
+          "open_ms": {
+            "median": 1.2442,
+            "min": 1.1908999999999998,
+            "max": 1.9303000000000001,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 8.7436,
+            "min": 8.321200000000001,
+            "max": 8.899199999999999,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 10.090099999999998,
+            "min": 9.5654,
+            "max": 10.813300000000002,
+            "samples": 5
+          },
+          "records": 160,
+          "complete": false,
+          "report_sha256": "47a6ca9c5b52992c6f40005a3e8cdc42c3c7945a823ef5bdc0ee523798b19498"
+        },
+        "ssym": {
+          "open_ms": {
+            "median": 1.189,
+            "min": 0.8412,
+            "max": 1.9875,
+            "samples": 5
+          },
+          "pslist_ms": {
+            "median": 10.0185,
+            "min": 8.3887,
+            "max": 11.8056,
+            "samples": 5
+          },
+          "total_ms": {
+            "median": 11.0332,
+            "min": 9.2376,
+            "max": 13.7931,
+            "samples": 5
+          },
+          "records": 160,
+          "complete": false,
+          "report_sha256": "47a6ca9c5b52992c6f40005a3e8cdc42c3c7945a823ef5bdc0ee523798b19498"
+        }
+      },
+      "symbol_roundtrip_equal": true,
+      "session_reports_equal": true
+    }
+  ]
+}

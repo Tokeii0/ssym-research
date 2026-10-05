@@ -1,0 +1,102 @@
+[package]
+name = "starmem"
+version = "0.2.0"
+edition = "2024"
+rust-version = "1.89"
+description = "StarMem: a fast Rust memory forensics engine"
+license = "MIT OR Apache-2.0"
+authors = ["Tokeii"]
+repository = "https://github.com/Tokeii0/StarMem"
+readme = "README.md"
+include = [
+    "/Cargo.toml",
+    "/Cargo.lock",
+    "/build.rs",
+    "/src/**/*.rs",
+    "/tests/**/*.rs",
+    "/examples/vmware_live_probe.rs",
+    "/examples/vmware_process_watch.rs",
+    "/examples/vmware_live_inspect.rs",
+    "/examples/vmware_memory_screen.rs",
+    "/examples/vmware_display_screen.rs",
+    "/README.md",
+    "/LICENSE-MIT",
+    "/LICENSE-APACHE",
+    "/THIRD_PARTY_NOTICES.md",
+    "/metadata/leaf-command-manifest.json",
+    "/benchmarks/command-equivalence.json",
+    "/schemas/command-registry-v1.schema.json",
+    "/schemas/command-registry-v2.schema.json",
+    "/schemas/evidence-envelope-v1.schema.json",
+    "/schemas/host-api-v1.schema.json",
+    "/schemas/leaf-command-manifest-v1.schema.json",
+    "/schemas/raw-object-v1.schema.json",
+    "/schemas/release-manifest-v1.schema.json",
+    "/docs/CRATE_INTEGRATION.md",
+    "!/**/._*",
+]
+
+[features]
+default = []
+
+[dependencies]
+aho-corasick = "1.1"
+aes = "0.8"
+anyhow = "1.0"
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+clap = { version = "4.5", features = ["derive"] }
+csv = "1.3"
+des = "0.8"
+dirs = "6.0"
+evtx = { version = "0.12.2", default-features = false }
+ewf = { version = "0.4.7", default-features = false }
+hex = "0.4"
+memchr = "2.7"
+memmap2 = "0.9"
+md-5 = "0.10"
+lzma-rust2 = "0.16.5"
+obfstr = "0.4"
+pdb = "0.8"
+rand = "0.8"
+rayon = "1.10"
+regex = "1.11"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+rsa = { version = "0.9.10", features = ["sha2"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+same-file = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha1 = "0.10"
+sha2 = "0.10"
+yara-x = "=1.14.0"
+# yara-x 1.14 对内部 crate 使用兼容范围；宿主重新解析依赖时可能选到 API
+# 不兼容的新版。直接约束三者，保证 path/vendor 集成不依赖 StarMem 的 Cargo.lock。
+yara-x-macros = "=1.14.0"
+yara-x-parser = "=1.14.0"
+yara-x-proto = "=1.14.0"
+xpress-huffman = { version = "0.1.3", features = ["std"] }
+zstd = { version = "0.13.3", default-features = false }
+
+[build-dependencies]
+sha2 = "0.10"
+
+[dev-dependencies]
+tempfile = "3"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["dpapi", "winbase", "wincrypt"] }
+windows-sys = { version = "0.61", features = [
+    "Win32_System_Console",
+    "Win32_Foundation",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_System_Memory",
+    "Win32_System_ProcessStatus",
+    "Win32_System_Threading",
+] }
+
+[profile.release]
+codegen-units = 1
+lto = "thin"
+panic = "abort"

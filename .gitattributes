@@ -1,0 +1,6 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+# Preserve measured source bytes: recipe_sha256 includes original line endings.
+reference/** -text

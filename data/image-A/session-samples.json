@@ -1,0 +1,428 @@
+{
+  "pdb": [
+    {
+      "image": "${IMAGE_A}",
+      "format": "Pdb",
+      "open_ms": 834.1844000000001,
+      "pslist_ms": 2.1254999999999997,
+      "total_ms": 836.3099000000001,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-pdb-1.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Pdb",
+      "open_ms": 850.3304,
+      "pslist_ms": 2.2694,
+      "total_ms": 852.5998000000001,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-pdb-2.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Pdb",
+      "open_ms": 880.5007,
+      "pslist_ms": 2.2057,
+      "total_ms": 882.7064,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-pdb-3.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Pdb",
+      "open_ms": 784.8066,
+      "pslist_ms": 2.3305000000000002,
+      "total_ms": 787.1371,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-pdb-4.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Pdb",
+      "open_ms": 815.6918,
+      "pslist_ms": 2.2382,
+      "total_ms": 817.93,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-pdb-5.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    }
+  ],
+  "json": [
+    {
+      "image": "${IMAGE_A}",
+      "format": "Json",
+      "open_ms": 861.4906,
+      "pslist_ms": 2.2603,
+      "total_ms": 863.7509,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-json-1.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Json",
+      "open_ms": 833.3806999999999,
+      "pslist_ms": 2.3335,
+      "total_ms": 835.7141999999999,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-json-2.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Json",
+      "open_ms": 820.7153000000001,
+      "pslist_ms": 2.2862999999999998,
+      "total_ms": 823.0016,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-json-3.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Json",
+      "open_ms": 794.1716,
+      "pslist_ms": 2.2242,
+      "total_ms": 796.3958,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-json-4.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Json",
+      "open_ms": 861.0250000000001,
+      "pslist_ms": 2.6917999999999997,
+      "total_ms": 863.7168,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-json-5.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    }
+  ],
+  "ssym": [
+    {
+      "image": "${IMAGE_A}",
+      "format": "Ssym",
+      "open_ms": 800.249,
+      "pslist_ms": 2.2628,
+      "total_ms": 802.5118,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-ssym-1.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Ssym",
+      "open_ms": 825.1436,
+      "pslist_ms": 2.2556999999999996,
+      "total_ms": 827.3993,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-ssym-2.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Ssym",
+      "open_ms": 794.9538,
+      "pslist_ms": 2.1429,
+      "total_ms": 797.0967,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-ssym-3.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Ssym",
+      "open_ms": 791.9637,
+      "pslist_ms": 2.0975,
+      "total_ms": 794.0612,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-ssym-4.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    },
+    {
+      "image": "${IMAGE_A}",
+      "format": "Ssym",
+      "open_ms": 814.2406,
+      "pslist_ms": 2.2701000000000002,
+      "total_ms": 816.5106999999999,
+      "records": 63,
+      "complete": false,
+      "report_sha256": "cd41d91f57822069fe4cd74af38fabe729b76e2258798bda858182e767405d04",
+      "report": "${CASE_A}\\pslist-ssym-5.json",
+      "build": {
+        "version": "0.2.0",
+        "build_id": "1b53c4adc5ec1df68585a5a2912c90b4418c0b92bcfb58d3e1fab79dcb72d994",
+        "git_commit": null,
+        "dirty": null,
+        "rust_target": "x86_64-pc-windows-msvc",
+        "features": [
+          "DEFAULT"
+        ],
+        "host_api_schema_version": 1,
+        "evidence_schema_version": 1,
+        "command_registry_schema_version": 2,
+        "leaf_command_manifest_schema_version": 1,
+        "integration_api_version": 5,
+        "sqlite_schema_version": 4,
+        "raw_object_schema_version": 1
+      }
+    }
+  ]
+}

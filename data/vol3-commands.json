@@ -1,0 +1,1532 @@
+[
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "convert",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--pdb",
+      "${PDB_A}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-01\\symbols"
+    ],
+    "wall_seconds": 9.383074400015175,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 2.4015979000832886,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json",
+      "--measure-memory"
+    ],
+    "wall_seconds": 0.6543582000304013,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.3876921000191942,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.3974162000231445,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.3903133999556303,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.4054210999747738,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.3944185000145808,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.39443270000629127,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.42905339994467795,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.4038227000273764,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\symbols\\windows\\ntkrnlmp.pdb\\ECE191A20CFF4465AE46DF96C2263845-1.json"
+    ],
+    "wall_seconds": 0.394121199962683,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.4388211000477895,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz",
+      "--measure-memory"
+    ],
+    "wall_seconds": 0.6724138000281528,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.43775380006991327,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.4397023000055924,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.5014570000348613,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.411486400058493,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.44010919996071607,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.5086303999414667,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.4800216000294313,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.4222775000380352,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-01\\ECE191A20CFF4465AE46DF96C2263845-1.json.xz"
+    ],
+    "wall_seconds": 0.48816800001077354,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_A}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-01\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-01\\pslist-0.json"
+    ],
+    "wall_seconds": 8.190502800047398,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_A}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-01\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-01\\pslist-1.json"
+    ],
+    "wall_seconds": 1.3895750000374392,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_A}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-01\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-01\\pslist-2.json"
+    ],
+    "wall_seconds": 1.3687675999244675,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-01\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_A}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-01\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-01\\pslist-3.json"
+    ],
+    "wall_seconds": 1.401949999970384,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "convert",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--pdb",
+      "${PDB_B}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-02\\symbols"
+    ],
+    "wall_seconds": 18.511640300042927,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 4.268523400067352,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json",
+      "--measure-memory"
+    ],
+    "wall_seconds": 0.8736378999892622,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.44021769997198135,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.43526690010912716,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.4274684999836609,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.4303485000273213,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.4504212000174448,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.4195548000279814,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.4233737000031397,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.42702569998800755,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\symbols\\windows\\ntkrnlmp.pdb\\2146E84F70B609E577618A477DC70B54-1.json"
+    ],
+    "wall_seconds": 0.42725680000148714,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.45042580005247146,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz",
+      "--measure-memory"
+    ],
+    "wall_seconds": 0.8997795999748632,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.4504117000615224,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.4782025000313297,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.47637339995708317,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.44971940002869815,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.45626390003599226,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.459781099925749,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.4453083999687806,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.45365549996495247,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-02\\2146E84F70B609E577618A477DC70B54-1.json.xz"
+    ],
+    "wall_seconds": 0.4663494999986142,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-02\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_B}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-02\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-02\\pslist-0.json"
+    ],
+    "wall_seconds": 8.726336700026877,
+    "exit_code": 1,
+    "stderr": "Volatility 3 Framework 2.27.0\nWARNING  volatility3.framework.layers.vmware: No metadata file found alongside VMEM file. A VMSS or VMSN file may be required to correctly process a VMEM file. These should be placed in the same directory with the same file name, e.g. image-B.vmem and image-B.vmss.\nUnable to validate the plugin requirements: ['plugins.PsList.kernel.layer_name', 'plugins.PsList.kernel.symbol_table_name']\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "convert",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--pdb",
+      "${PDB_C}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-03\\symbols"
+    ],
+    "wall_seconds": 23.494413200067356,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 5.127272399957292,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json",
+      "--measure-memory"
+    ],
+    "wall_seconds": 1.0777142000151798,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.48100330005399883,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.4803485000738874,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.4794977999990806,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.46830009995028377,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.4875978999771178,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.4807479999726638,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.48353210010100156,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.4737201000098139,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\symbols\\windows\\ntkrnlmp.pdb\\7427DA99C3D737202BFB359C2B0E1A5E-1.json"
+    ],
+    "wall_seconds": 0.4841784000163898,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.5327244000509381,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz",
+      "--measure-memory"
+    ],
+    "wall_seconds": 1.0979919000528753,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.4931213000090793,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.5108991999877617,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.5018432999495417,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.499850400025025,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.5039310998981819,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.5080624000402167,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.496483700000681,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.4936307000461966,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "load",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--isf",
+      "${VOL3_RUN}\\case-03\\7427DA99C3D737202BFB359C2B0E1A5E-1.json.xz"
+    ],
+    "wall_seconds": 0.5368875999702141,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_C}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-03\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-03\\pslist-0.json"
+    ],
+    "wall_seconds": 9.34126319992356,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_C}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-03\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-03\\pslist-1.json"
+    ],
+    "wall_seconds": 2.0716389000881463,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_C}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-03\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-03\\pslist-2.json"
+    ],
+    "wall_seconds": 2.0137143000029027,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  },
+  {
+    "argv": [
+      "${USER_HOME}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "${REPOSITORY}\\ssym-research\\scripts\\benchmark-vol3.py",
+      "--worker",
+      "pslist",
+      "--cache",
+      "${VOL3_RUN}\\case-03\\cache",
+      "--without-libmagic",
+      "--image",
+      "${IMAGE_C}",
+      "--symbol-root",
+      "${VOL3_RUN}\\case-03\\symbols",
+      "--report",
+      "${VOL3_RUN}\\case-03\\pslist-3.json"
+    ],
+    "wall_seconds": 2.10455579997506,
+    "exit_code": 0,
+    "stderr": "Volatility 3 Framework 2.27.0\n"
+  }
+]

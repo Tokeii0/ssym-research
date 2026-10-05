@@ -1,0 +1,3806 @@
+[
+  {
+    "label": "0:prepare",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "prepare",
+      "--image",
+      "${IMAGE_A}",
+      "--output",
+      "${CASE_A}"
+    ],
+    "wall_seconds": 5.588895899942145,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.4502997000236064,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.42461360001470894,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.40516439999919385,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.42259770003147423,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.5006356000667438,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.4257128000026569,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4140688000479713,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4260952000040561,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.46902249997947365,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.5046091999392956,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.38282679999247193,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.414662400027737,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.43116619996726513,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.40212580002844334,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.37736869999207556,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39733050006907433,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40205289993900806,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.4191640999633819,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.40166150010190904,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.39584540005307645,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4067612999351695,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.421870099962689,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39700230001471937,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.43628310004714876,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.41745950002223253,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.4103484000079334,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.42623600002843887,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.42188869998790324,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.3812512999866158,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4499632000224665,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.40488349995575845,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.3911606000037864,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.4015052999602631,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.422205499955453,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.40829509997274727,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40997229993809015,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.43486259994097054,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4548611000645906,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4383043999550864,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.44282710005063564,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.40084110002499074,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.4332676000194624,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.40519189997576177,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39083469996694475,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.41318480006884784,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4157435999950394,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.4749791999347508,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.48204149992670864,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.4293588000582531,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.40912050008773804,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39435139996930957,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.3954909999156371,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.6152284999843687,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.39656989998184144,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40653509995900095,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.391060599940829,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.3747159999329597,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4116278999717906,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.45327980001457036,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.3920704999472946,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}"
+    ],
+    "wall_seconds": 0.4174785000504926,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4068431999767199,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.4053267000708729,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_A}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.41618170007131994,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_A}\\profile.json"
+    ],
+    "wall_seconds": 0.40726689994335175,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39818699995521456,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:ssym:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym",
+      "--report",
+      "${CASE_A}\\pslist-ssym-0.json"
+    ],
+    "wall_seconds": 1.4569227000465617,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:pdb:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}",
+      "--report",
+      "${CASE_A}\\pslist-pdb-0.json"
+    ],
+    "wall_seconds": 1.4851979999803007,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:json:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_A}\\profile.json",
+      "--report",
+      "${CASE_A}\\pslist-json-0.json"
+    ],
+    "wall_seconds": 1.4634797000326216,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:ssym:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym",
+      "--report",
+      "${CASE_A}\\pslist-ssym-1.json"
+    ],
+    "wall_seconds": 1.4026474000420421,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:pdb:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}",
+      "--report",
+      "${CASE_A}\\pslist-pdb-1.json"
+    ],
+    "wall_seconds": 1.423746799933724,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:json:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_A}\\profile.json",
+      "--report",
+      "${CASE_A}\\pslist-json-1.json"
+    ],
+    "wall_seconds": 1.4866929000709206,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:json:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_A}\\profile.json",
+      "--report",
+      "${CASE_A}\\pslist-json-2.json"
+    ],
+    "wall_seconds": 1.4408078000415117,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:pdb:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}",
+      "--report",
+      "${CASE_A}\\pslist-pdb-2.json"
+    ],
+    "wall_seconds": 1.4557615999365225,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:ssym:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym",
+      "--report",
+      "${CASE_A}\\pslist-ssym-2.json"
+    ],
+    "wall_seconds": 1.4262020000023767,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:json:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_A}\\profile.json",
+      "--report",
+      "${CASE_A}\\pslist-json-3.json"
+    ],
+    "wall_seconds": 1.4137268000049517,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:pdb:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}",
+      "--report",
+      "${CASE_A}\\pslist-pdb-3.json"
+    ],
+    "wall_seconds": 1.7247173000359908,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:ssym:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym",
+      "--report",
+      "${CASE_A}\\pslist-ssym-3.json"
+    ],
+    "wall_seconds": 1.4143455000594258,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:ssym:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym",
+      "--report",
+      "${CASE_A}\\pslist-ssym-4.json"
+    ],
+    "wall_seconds": 1.383653900003992,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:pdb:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}",
+      "--report",
+      "${CASE_A}\\pslist-pdb-4.json"
+    ],
+    "wall_seconds": 1.4538672000635415,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:json:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_A}\\profile.json",
+      "--report",
+      "${CASE_A}\\pslist-json-4.json"
+    ],
+    "wall_seconds": 1.4167301999405026,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:ssym:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_A}\\profile.ssym",
+      "--report",
+      "${CASE_A}\\pslist-ssym-5.json"
+    ],
+    "wall_seconds": 1.4666915000416338,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:json:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_A}\\profile.json",
+      "--report",
+      "${CASE_A}\\pslist-json-5.json"
+    ],
+    "wall_seconds": 1.5549787000054494,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "0:session:pdb:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_A}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_A}",
+      "--report",
+      "${CASE_A}\\pslist-pdb-5.json"
+    ],
+    "wall_seconds": 1.4407653999514878,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:prepare",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "prepare",
+      "--image",
+      "${IMAGE_B}",
+      "--output",
+      "${CASE_B}"
+    ],
+    "wall_seconds": 9.61817350005731,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.47448590002022684,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.44724590005353093,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4335511000826955,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4508379000471905,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4136679000221193,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4513556999154389,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.426403799909167,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.42232679994776845,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.41217130003497005,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40385999996215105,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.41303589998278767,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.43326650001108646,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.43971250008326024,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.44608789996709675,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4063977999612689,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.40880530001595616,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4293305000755936,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.43039260001387447,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.43543559999670833,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.42483440006617457,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4367062000092119,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.43367910000961274,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.440944500034675,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.45289700001012534,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.43265299999620765,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4158003000775352,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.40617099998053163,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4121018999721855,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4204634999623522,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4119778999593109,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4197312999749556,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4653935000533238,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.618464499944821,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.42738859995733947,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.43310609995387495,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.3985078999539837,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4250088999979198,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4424011999508366,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.41380569990724325,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.44231060007587075,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.47688400000333786,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.3929484999971464,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.45064129994716495,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4280066998908296,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40188030002173036,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.5010831999825314,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.42739670001901686,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.49494569993112236,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.40875689999666065,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.4462939000222832,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.40679220005404204,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.42202609998639673,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.45494789991062135,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.3907079000491649,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4172860999824479,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.41434290003962815,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.45403459994122386,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.39094990002922714,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.4121724999276921,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4378475999692455,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4145139999454841,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_B}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.42973129998426884,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}"
+    ],
+    "wall_seconds": 0.4234324999852106,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.4600004000822082,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_B}\\profile.ssym"
+    ],
+    "wall_seconds": 0.5203509000129998,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_B}\\profile.json"
+    ],
+    "wall_seconds": 0.377280900022015,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:pdb:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}",
+      "--report",
+      "${CASE_B}\\pslist-pdb-0.json"
+    ],
+    "wall_seconds": 2.086625099997036,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:json:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_B}\\profile.json",
+      "--report",
+      "${CASE_B}\\pslist-json-0.json"
+    ],
+    "wall_seconds": 1.957660200074315,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:ssym:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym",
+      "--report",
+      "${CASE_B}\\pslist-ssym-0.json"
+    ],
+    "wall_seconds": 1.9165809999685735,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:json:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_B}\\profile.json",
+      "--report",
+      "${CASE_B}\\pslist-json-1.json"
+    ],
+    "wall_seconds": 1.9406655000057071,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:pdb:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}",
+      "--report",
+      "${CASE_B}\\pslist-pdb-1.json"
+    ],
+    "wall_seconds": 1.9289832999929786,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:ssym:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym",
+      "--report",
+      "${CASE_B}\\pslist-ssym-1.json"
+    ],
+    "wall_seconds": 1.9267350999871269,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:pdb:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}",
+      "--report",
+      "${CASE_B}\\pslist-pdb-2.json"
+    ],
+    "wall_seconds": 1.9245229999069124,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:json:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_B}\\profile.json",
+      "--report",
+      "${CASE_B}\\pslist-json-2.json"
+    ],
+    "wall_seconds": 1.9896642999956384,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:ssym:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym",
+      "--report",
+      "${CASE_B}\\pslist-ssym-2.json"
+    ],
+    "wall_seconds": 1.9064372000284493,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:ssym:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym",
+      "--report",
+      "${CASE_B}\\pslist-ssym-3.json"
+    ],
+    "wall_seconds": 1.9097617999650538,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:pdb:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}",
+      "--report",
+      "${CASE_B}\\pslist-pdb-3.json"
+    ],
+    "wall_seconds": 1.9059625000227243,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:json:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_B}\\profile.json",
+      "--report",
+      "${CASE_B}\\pslist-json-3.json"
+    ],
+    "wall_seconds": 1.9839884999673814,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:ssym:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym",
+      "--report",
+      "${CASE_B}\\pslist-ssym-4.json"
+    ],
+    "wall_seconds": 1.9263081999961287,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:json:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_B}\\profile.json",
+      "--report",
+      "${CASE_B}\\pslist-json-4.json"
+    ],
+    "wall_seconds": 1.8853213998954743,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:pdb:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}",
+      "--report",
+      "${CASE_B}\\pslist-pdb-4.json"
+    ],
+    "wall_seconds": 2.007605400052853,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:ssym:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_B}\\profile.ssym",
+      "--report",
+      "${CASE_B}\\pslist-ssym-5.json"
+    ],
+    "wall_seconds": 1.9946829000255093,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:json:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_B}\\profile.json",
+      "--report",
+      "${CASE_B}\\pslist-json-5.json"
+    ],
+    "wall_seconds": 1.926744999946095,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "1:session:pdb:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_B}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_B}",
+      "--report",
+      "${CASE_B}\\pslist-pdb-5.json"
+    ],
+    "wall_seconds": 1.9678735000779852,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:prepare",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "prepare",
+      "--image",
+      "${IMAGE_C}",
+      "--output",
+      "${CASE_C}"
+    ],
+    "wall_seconds": 18.73984900000505,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.4093142000492662,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.3811968000372872,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.462087000021711,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.3977946999948472,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4211623000446707,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4278512999881059,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4841658999212086,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4773457000264898,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.45707270002458245,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4334347000112757,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.375051400042139,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "--measure-heap",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.3831436999607831,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.3986015000846237,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39964259997941554,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.40318410005420446,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.3945915000513196,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.45068840007297695,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.3977921000914648,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4065827999729663,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40452270000241697,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.3998350999318063,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4002413999987766,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.40988120005931705,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.43234769999980927,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.3875278999330476,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4103533999295905,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4259941999334842,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4603817000752315,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.43091699993237853,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.4142258999636397,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40810070000588894,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.3785219000419602,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.3848740999819711,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.40896279993467033,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.43474389996845275,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.40323060005903244,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4170485999202356,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.40940289990976453,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.43881590000819415,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.4076663999585435,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.3901312999660149,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.38571270008105785,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.41233349998947233,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.40163069998379797,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4081135999877006,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4104151000501588,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.6286200999747962,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.4402945999754593,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.40238890005275607,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4487580000422895,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4150508000748232,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.42995469993911684,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.456598199903965,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4349637000123039,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.41818339994642884,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.3812649000901729,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4119634999660775,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.38306569994892925,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.37750320008490235,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.4191356999799609,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-reader",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-reader",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.38502319995313883,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.39544480002950877,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-slice",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-slice",
+      "--path",
+      "${CASE_C}\\profile.json"
+    ],
+    "wall_seconds": 0.3967218000907451,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:json-zstd",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "json-zstd",
+      "--path",
+      "${CASE_C}\\profile.json.zst"
+    ],
+    "wall_seconds": 0.4305011999094859,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:pdb",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}"
+    ],
+    "wall_seconds": 0.4400185999693349,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:load:ssym-owned",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "load",
+      "--format",
+      "ssym-owned",
+      "--path",
+      "${CASE_C}\\profile.ssym"
+    ],
+    "wall_seconds": 0.4073135000653565,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:pdb:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}",
+      "--report",
+      "${CASE_C}\\pslist-pdb-0.json"
+    ],
+    "wall_seconds": 0.46343489992432296,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:json:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_C}\\profile.json",
+      "--report",
+      "${CASE_C}\\pslist-json-0.json"
+    ],
+    "wall_seconds": 0.46039120003115386,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:ssym:0",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym",
+      "--report",
+      "${CASE_C}\\pslist-ssym-0.json"
+    ],
+    "wall_seconds": 0.4673014999134466,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:pdb:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}",
+      "--report",
+      "${CASE_C}\\pslist-pdb-1.json"
+    ],
+    "wall_seconds": 0.48954380000941455,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:ssym:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym",
+      "--report",
+      "${CASE_C}\\pslist-ssym-1.json"
+    ],
+    "wall_seconds": 0.4432706000516191,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:json:1",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_C}\\profile.json",
+      "--report",
+      "${CASE_C}\\pslist-json-1.json"
+    ],
+    "wall_seconds": 0.41369139996822923,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:pdb:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}",
+      "--report",
+      "${CASE_C}\\pslist-pdb-2.json"
+    ],
+    "wall_seconds": 0.43763099994976074,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:json:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_C}\\profile.json",
+      "--report",
+      "${CASE_C}\\pslist-json-2.json"
+    ],
+    "wall_seconds": 0.4632774000056088,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:ssym:2",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym",
+      "--report",
+      "${CASE_C}\\pslist-ssym-2.json"
+    ],
+    "wall_seconds": 0.43615219998173416,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:json:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_C}\\profile.json",
+      "--report",
+      "${CASE_C}\\pslist-json-3.json"
+    ],
+    "wall_seconds": 0.43780419998802245,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:pdb:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}",
+      "--report",
+      "${CASE_C}\\pslist-pdb-3.json"
+    ],
+    "wall_seconds": 0.4106920000631362,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:ssym:3",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym",
+      "--report",
+      "${CASE_C}\\pslist-ssym-3.json"
+    ],
+    "wall_seconds": 0.42888349993154407,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:pdb:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}",
+      "--report",
+      "${CASE_C}\\pslist-pdb-4.json"
+    ],
+    "wall_seconds": 0.4434838999295607,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:json:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_C}\\profile.json",
+      "--report",
+      "${CASE_C}\\pslist-json-4.json"
+    ],
+    "wall_seconds": 0.41635659988969564,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:ssym:4",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym",
+      "--report",
+      "${CASE_C}\\pslist-ssym-4.json"
+    ],
+    "wall_seconds": 0.47383320005610585,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:pdb:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "pdb",
+      "--path",
+      "${PDB_C}",
+      "--report",
+      "${CASE_C}\\pslist-pdb-5.json"
+    ],
+    "wall_seconds": 0.42483010003343225,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:ssym:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "ssym",
+      "--path",
+      "${CASE_C}\\profile.ssym",
+      "--report",
+      "${CASE_C}\\pslist-ssym-5.json"
+    ],
+    "wall_seconds": 0.4201963000232354,
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "label": "2:session:json:5",
+    "argv": [
+      "${STARMEM_BENCH}",
+      "session",
+      "--image",
+      "${IMAGE_C}",
+      "--format",
+      "json",
+      "--path",
+      "${CASE_C}\\profile.json",
+      "--report",
+      "${CASE_C}\\pslist-json-5.json"
+    ],
+    "wall_seconds": 0.40713130007497966,
+    "exit_code": 0,
+    "stderr": ""
+  }
+]
